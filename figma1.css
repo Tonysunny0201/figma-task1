@@ -1,0 +1,47 @@
+body{
+    width: 448px;
+    height: 768px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.personimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.login{
+    padding-top: 20px;
+    background-color: rgb(88, 86, 86);
+    width: 448px;
+    height: 400px;
+    border-radius: 10px;
+}
+h1{
+    text-align: center;
+}
+input{
+    margin:0px 17px ;
+    width: 410px;
+    height: 57px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: none;
+}
+button{
+    position: absolute;
+    left: 28%;
+    bottom: 15%;
+    width: 200px;
+    height: 57px;
+    background-color: #6474FF;
+    border: none;
+    font-size:21px;
+    font-style: bold;
+    color: white;
+    border-radius: 10px;
+}
